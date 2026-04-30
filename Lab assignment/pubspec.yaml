@@ -1,0 +1,40 @@
+name: number_guessing_game
+description: A fun number guessing game with history, stats, and settings.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # State Management
+  provider: ^6.1.1
+
+  # UI & Utilities
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  audioplayers: ^5.2.1
+  vibration: ^1.8.4
+  intl: ^0.18.1
+  google_fonts: ^6.1.0
+  animate_do: ^3.3.4
+  flutter_animate: ^4.3.0
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/images/
